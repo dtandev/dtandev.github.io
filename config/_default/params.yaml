@@ -83,6 +83,8 @@ hugoblox:
     enable: true
     # Header style variant
     style: navbar # navbar | navbar-simple | minimal
+    # Signature logo (assets/media/logo.svg) replaces the text name
+    show_title: false
     # Stick to top on scroll
     sticky: true
     # Menu alignment
