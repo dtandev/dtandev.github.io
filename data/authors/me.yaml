@@ -72,14 +72,20 @@ education:
 experience:
   - role: Head of Science & Innovation
     org: TerraEye, Wrocław
-    start: 2024-02-01
+    start: 2026-05-01
     summary: |
       Head the Science & Innovation department and sit on the company's leadership team.
       Own the R&D roadmap and scientific quality sign-off, and turn research into
-      capabilities that can be priced and sold. Develop and validate remote-sensing
-      methodologies (Sentinel-1/2, Landsat, EMIT, thermal) for mineral exploration;
-      integrate multisensor data with ML and knowledge-based reasoning for prospectivity
-      mapping. R&D: EXPLOMAT, GRENMINE, RISPECT.
+      capabilities that can be priced and sold. R&D: EXPLOMAT, GRENMINE, RISPECT.
+  - role: Principal Geospatial Data Scientist
+    org: TerraEye, Wrocław
+    start: 2024-02-01
+    end: 2026-04-30
+    summary: |
+      Led the Science team building geospatial intelligence solutions for the mining
+      industry. Developed and validated remote-sensing methodologies (Sentinel-1/2,
+      Landsat, EMIT, thermal) for mineral exploration; integrated multisensor data with ML
+      and knowledge-based reasoning for prospectivity mapping.
   - role: R&D Team Leader
     org: Remote Sensing Environmental Solutions, Wrocław
     start: 2022-05-01
