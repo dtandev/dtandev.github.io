@@ -34,6 +34,22 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
+    id: recognition
+    content:
+      title: 'Recognition'
+      subtitle: ''
+      text: |-
+        <div style="display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap">
+          <a href="https://geospatialworld.net/rising-stars/2026/" target="_blank" rel="noopener">
+            <img src="/media/badges/gw-rising-stars-2026.png" alt="Geospatial World 50 Rising Stars 2026" width="120" height="157" style="margin:0">
+          </a>
+          <p style="margin:0;flex:1;min-width:14rem">
+            I was named one of the <a href="https://geospatialworld.net/rising-stars/2026/" target="_blank" rel="noopener">Geospatial World 50 Rising Stars 2026</a>.
+          </p>
+        </div>
+    design:
+      columns: '1'
+  - block: markdown
     content:
       title: 'About'
       subtitle: ''
