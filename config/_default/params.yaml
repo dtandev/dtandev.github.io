@@ -19,13 +19,14 @@ hugoblox:
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "Earth Observation and geospatial AI for mineral exploration"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "Dariusz Tanajewski, PhD — Head of Science & Innovation at TerraEye.
+      Earth Observation, hyperspectral analysis and machine learning for mineral
+      exploration and mining."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "" # TODO: Twitter/X handle for Twitter Cards (without @), if any
+      twitter: "" # Twitter/X handle without @; empty = no Twitter Card attribution
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -148,8 +149,8 @@ hugoblox:
       allow:
         - /
       disallow: []
-      note: "Guidance for AI crawlers - customize to match your public content."
-      contact: ""
+      note: "Personal site of Dariusz Tanajewski: professional profile, publications and R&D projects in Earth Observation and mineral exploration."
+      contact: "dariusz.tanajewski@terraeye.co"
 
   # ────────────────────────────────────────────────────────────────────────────
   # CONTENT
@@ -176,7 +177,12 @@ hugoblox:
   search:
     enable: true
     # Trending/suggested search terms
-    suggestions: []
+    suggestions:
+      - Hyperspectral
+      - Mineral exploration
+      - Remote sensing
+      - GNSS
+      - GPR
     # Quick action shortcuts in search modal
     quick_actions: []
 

@@ -11,11 +11,11 @@ name:
 postnominals:
   - PhD
 
-role: Principal Geospatial Data Scientist
+role: Head of Science & Innovation
 
 bio: |
-  I'm a Principal Geospatial Data Scientist at TerraEye, where I've led the development
-  of geospatial intelligence solutions for the mining industry across the whole project
+  I'm Head of Science & Innovation at TerraEye, where I lead the team developing
+  geospatial intelligence solutions for the mining industry across the whole project
   lifecycle — from exploration to reclamation. I have over 14 years of experience in
   geospatial data science, more than four of them focused specifically on Earth
   Observation, and my work sits where EO science meets industrial deployment.
@@ -70,14 +70,22 @@ education:
     end: 2011-07-31
 
 experience:
-  - role: Principal Geospatial Data Scientist
+  - role: Head of Science & Innovation
     org: TerraEye, Wrocław
-    start: 2024-02-01
+    start: 2026-05-01
     summary: |
-      Lead the Science team building geospatial intelligence solutions for the mining
-      industry. Develop and validate remote-sensing methodologies (Sentinel-1/2, Landsat,
-      EMIT, thermal) for mineral exploration; integrate multisensor data with ML and
-      knowledge-based reasoning for prospectivity mapping. R&D: EXPLOMAT, GRENMINE, RISPECT.
+      Head the Science & Innovation department and sit on the company's leadership team.
+      Own the R&D roadmap and scientific quality sign-off, and turn research into
+      capabilities that can be priced and sold. R&D: EXPLOMAT, GRENMINE, RISPECT.
+  - role: Geospatial Data Scientist
+    org: Remote Sensing Business Solutions (TerraEye), Wrocław
+    start: 2024-02-01
+    end: 2026-04-30
+    summary: |
+      Led the Science team building geospatial intelligence solutions for the mining
+      industry. Developed and validated remote-sensing methodologies (Sentinel-1/2,
+      Landsat, EMIT, thermal) for mineral exploration; integrated multisensor data with ML
+      and knowledge-based reasoning for prospectivity mapping.
   - role: R&D Team Leader
     org: Remote Sensing Environmental Solutions, Wrocław
     start: 2022-05-01
@@ -93,7 +101,7 @@ experience:
     summary: |
       Built ML models for satellite-image analysis in the New Space sector; applied
       computer vision and deep learning to Earth Observation data.
-  - role: Professor Assistant / Adjunct Lecturer
+  - role: Assistant Professor
     org: University of Warmia and Mazury, Olsztyn
     start: 2016-10-01
     end: 2022-09-30
