@@ -1,0 +1,13 @@
+<style>
+  /* Text stays in the DOM for screen readers and search engines; the mask paints the logo in the link's current colour. */
+  .resume-biography a[href="https://terraeye.co/"] {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    font-size: 0;
+    vertical-align: middle;
+    background-color: currentColor;
+    -webkit-mask: url("/media/logos/terraeye.svg") no-repeat center / contain;
+    mask: url("/media/logos/terraeye.svg") no-repeat center / contain;
+  }
+</style>
