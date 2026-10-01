@@ -1,0 +1,147 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Dariusz Tanajewski
+  given: Dariusz
+  family: Tanajewski
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''          # opcjonalne — uzupełnij, jeśli chcesz pokazywać
+postnominals:
+  - PhD
+
+role: Principal Geospatial Data Scientist
+
+bio: |
+  Geospatial data science leader bridging Earth Observation science with industrial
+  deployment. I lead the Science team at TerraEye, building geospatial intelligence for
+  the mining industry across the full project lifecycle — from exploration to
+  reclamation. My focus: multisensor data integration, advanced geospatial analytics,
+  mineral exploration and geological interpretation, combining a PhD in technical
+  sciences and a computer-science background with practical satellite-data analysis and AI.
+
+affiliations:
+  - name: TerraEye
+    url: https://terraeye.co/
+
+links:
+  - icon: at-symbol
+    url: mailto:dariusz.tanajewski@terraeye.co
+    label: E-mail
+  - icon: brands/github
+    url: https://github.com/dtandev
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/dtanajewski/
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-9734-1762
+  # - icon: academicons/google-scholar   # TODO: dodaj, jeśli masz publiczny profil
+  #   url: https://scholar.google.com/citations?user=XXXX
+
+interests:
+  - Earth Observation
+  - Mineral Exploration & Prospectivity Mapping
+  - Hyperspectral & Spectral Analysis
+  - Multisensor Data Fusion
+  - Machine Learning / AI in Remote Sensing
+  - Geophysics / GPR
+
+education:
+  - degree: PhD in Technical Sciences
+    institution: University of Warmia and Mazury, Olsztyn — Faculty of Geodesy, Spatial Engineering and Construction
+    start: 2011-10-01
+    end: 2017-11-30
+  - degree: MSc in Computer Science (Systems and Computer Networks Design)
+    institution: University of Warmia and Mazury, Olsztyn
+    start: 2020-10-01
+    end: 2022-06-30
+  - degree: Postgraduate Diploma — Data Science in Practice
+    institution: University of Warmia and Mazury, Olsztyn — Faculty of Mathematics and Computer Science
+    start: 2018-09-01
+    end: 2019-03-31
+  - degree: MSc Eng., Geodesy and Satellite Navigation
+    institution: University of Warmia and Mazury, Olsztyn
+    start: 2006-10-01
+    end: 2011-07-31
+
+experience:
+  - role: Principal Geospatial Data Scientist
+    org: TerraEye, Wrocław
+    start: 2024-02-01
+    summary: |
+      Lead the Science team building geospatial intelligence solutions for the mining
+      industry. Develop and validate remote-sensing methodologies (Sentinel-1/2, Landsat,
+      EMIT, thermal) for mineral exploration; integrate multisensor data with ML and
+      knowledge-based reasoning for prospectivity mapping. R&D: EXPLOMAT, GRENMINE, RISPECT.
+  - role: R&D Team Leader
+    org: Remote Sensing Environmental Solutions, Wrocław
+    start: 2022-05-01
+    end: 2024-01-31
+    summary: |
+      Led an R&D team developing satellite-based AI solutions for the mining and
+      environmental sector. NCBR-funded projects: HYPE4EXPLOR, ECOSAT, MINECAM — from
+      methodology design to delivery.
+  - role: Machine Learning Engineer
+    org: Four Point, Wrocław
+    start: 2021-08-01
+    end: 2022-04-30
+    summary: |
+      Built ML models for satellite-image analysis in the New Space sector; applied
+      computer vision and deep learning to Earth Observation data.
+  - role: Professor Assistant / Adjunct Lecturer
+    org: University of Warmia and Mazury, Olsztyn
+    start: 2016-10-01
+    end: 2022-09-30
+    summary: |
+      GPR-based detection and corrosion assessment of steel bars in reinforced concrete
+      (team leader, NCN-funded). ESA-funded navigation projects. GPR surveys as team
+      leader; Polish-Georgian archaeological expedition, Kutaisi.
+  - role: Geophysicist & GIS / Data Analyst
+    org: GeoScience (owner) · Visimind · Environmental Expertise Rakus
+    start: 2014-11-01
+    end: 2021-12-31
+    summary: |
+      GPR acquisition and interpretation; geodetic and environmental GIS analysis.
+
+skills:
+  # Poziomy 1–5 to wstępna samoocena — dostosuj do własnej.
+  - name: Geospatial & EO
+    items:
+      - label: Earth Observation
+        level: 5
+      - label: Mineral Prospectivity Mapping
+        level: 5
+      - label: Multisensor Data Fusion
+        level: 4
+      - label: Geophysics / GPR
+        level: 4
+      - label: GNSS & Navigation
+        level: 4
+  - name: Data & ML
+    items:
+      - label: Python (rasterio, GeoPandas, scikit-learn)
+        level: 5
+      - label: Machine Learning & AI
+        level: 4
+      - label: QGIS / ArcGIS / SNAP / SentinelHub
+        level: 5
+      - label: R&D Project Management
+        level: 4
+
+languages:
+  - name: Polish
+    level: 5
+    label: Native
+  - name: English
+    level: 3
+    label: B2
+
+awards:
+  - title: Geospatial World 50 Rising Stars
+    awarder: Geospatial World
+    date: "2026-01-01"
+    icon: hero/trophy
+  - title: ESNC Special Award
+    awarder: German Space Agency (DLR)
+    date: "2015-01-01"
+    icon: hero/trophy
