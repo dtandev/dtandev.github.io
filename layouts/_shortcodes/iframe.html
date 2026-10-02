@@ -1,0 +1,12 @@
+{{- /* Embeds a page from this site (or elsewhere) in a frame: {{< iframe src="/demos/x.html" title="..." height="700" >}} */ -}}
+{{- $height := .Get "height" | default "700" -}}
+<div class="not-prose my-6">
+  <iframe
+    src="{{ .Get "src" | relURL }}"
+    title="{{ .Get "title" }}"
+    width="100%"
+    height="{{ $height }}"
+    loading="lazy"
+    allowfullscreen
+    style="border: 1px solid rgba(128, 128, 128, 0.3); border-radius: 8px;"></iframe>
+</div>
