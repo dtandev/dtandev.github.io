@@ -10,7 +10,12 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
-      text: ''
+      # Full biography for the homepage. The author profile (data/authors/me.yaml) keeps only the
+      # first paragraph, which is what the author box under articles and projects shows.
+      text: |-
+        I'm Head of Science & Innovation at TerraEye, where I lead the team developing geospatial intelligence solutions for the mining industry across the whole project lifecycle — from exploration to reclamation. I have over 14 years of experience in geospatial data science, more than four of them focused specifically on Earth Observation, and my work sits where EO science meets industrial deployment.
+
+        I've contributed to projects funded by the European Space Agency, the European Commission and Poland's National Centre for Research and Development, and worked on solutions later adopted by a major global resource group. My focus is integrating multisensor data and applying advanced geospatial analytics and machine learning to mineral exploration and geological interpretation.
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
