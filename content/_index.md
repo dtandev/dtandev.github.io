@@ -36,7 +36,7 @@ sections:
   - block: markdown
     id: recognition
     content:
-      title: 'Recognition'
+      title: 'Recognition & Awards'
       subtitle: ''
       text: |-
         <div style="display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap">
@@ -44,8 +44,42 @@ sections:
             <img src="/media/badges/gw-rising-stars-2026.png" alt="Geospatial World 50 Rising Stars 2026" width="120" height="157" style="margin:0">
           </a>
           <p style="margin:0;flex:1;min-width:14rem">
-            I was named one of the <a href="https://geospatialworld.net/rising-stars/2026/" target="_blank" rel="noopener">Geospatial World 50 Rising Stars 2026</a>.
+            <strong>2026</strong> — named one of the <a href="https://geospatialworld.net/rising-stars/2026/" target="_blank" rel="noopener">Geospatial World 50 Rising Stars 2026</a>.
           </p>
+        </div>
+        <div style="display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;margin-top:1.5rem">
+          <img class="cassini-logo" src="/media/badges/cassini.svg" alt="CASSINI" style="margin:0;width:120px;height:auto">
+          <p style="margin:0;flex:1;min-width:14rem">
+            <strong>2023, 2024</strong> — TerraEye's team nominated in the <a href="https://www.cassini.eu/" target="_blank" rel="noopener">CASSINI Challenge</a> twice: in 2023 in the Prototype category (SAR Gate) and in 2024 in the Idea category (AIMS, Asbestos Identification and Mapping Solution).
+          </p>
+        </div>
+        <div style="display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;margin-top:1.5rem">
+          <img src="/media/badges/bsa.svg" alt="BalticSatApps" style="margin:0;width:120px;height:auto;padding:0 20px">
+          <p style="margin:0;flex:1;min-width:14rem">
+            <strong>2020</strong> — member of the winning team at the <a href="https://balticsatapps.adrianwii.pl/" target="_blank" rel="noopener">BalticSatApps</a> hackathon with an application detecting unauthorised (illegal) construction.
+          </p>
+        </div>
+        <div style="display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;margin-top:1.5rem">
+          <img class="member-logo" src="/media/badges/galileo-masters.png" alt="Galileo Masters (European Satellite Navigation Competition)" style="margin:0;width:120px;height:auto">
+          <p style="margin:0;flex:1;min-width:14rem">
+            <strong>2015</strong> — Special Award of the German Aerospace Center (DLR) at the European Satellite Navigation Competition (ESNC, formerly Galileo Masters).
+          </p>
+        </div>
+    design:
+      columns: '1'
+  - block: markdown
+    id: memberships
+    content:
+      title: 'Memberships'
+      subtitle: ''
+      text: |-
+        <div style="display:flex;align-items:center;gap:2.5rem;flex-wrap:wrap">
+          <a href="https://www.grss-ieee.org/" target="_blank" rel="noopener" title="IEEE Geoscience and Remote Sensing Society">
+            <img class="member-logo" src="/media/badges/grss.png" alt="IEEE Geoscience and Remote Sensing Society (GRSS)" style="margin:0;height:90px;width:auto">
+          </a>
+          <a href="https://pspa.pl/" target="_blank" rel="noopener" title="Polish Space Professionals Association">
+            <img class="member-logo" src="/media/badges/pspa.png" alt="Polish Space Professionals Association (PSPA)" style="margin:0;height:90px;width:auto">
+          </a>
         </div>
     design:
       columns: '1'
@@ -60,27 +94,6 @@ sections:
         methods into operational EO workflows. Critical, limitations-first, practitioner view.
     design:
       columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
   - block: markdown
     id: github
     content:
@@ -100,6 +113,27 @@ sections:
         </div>
     design:
       columns: '1'
+  - block: collection
+    id: papers
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publications
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 2
+  - block: collection
+    content:
+      title: More Publications
+      text: ''
+      filters:
+        folders:
+          - publications
+        exclude_featured: true
+    design:
+      view: citation
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:
