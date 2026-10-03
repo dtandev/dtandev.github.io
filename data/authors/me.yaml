@@ -148,8 +148,8 @@ languages:
     level: 5
     label: Native
   - name: English
-    level: 3
-    label: B2
+    level: 3.5
+    label: B2+
 
 awards:
   - title: Geospatial World 50 Rising Stars
