@@ -1,11 +1,27 @@
 <style>
-  /* Theme uses lg:py-24 / xl:py-32 on the hero; trim the top so the name sits higher, and give Education more room instead. */
-  @media (min-width: 1024px) {
-    .resume-biography {
-      padding-top: 3rem;
-    }
-  }
+  /* Hero spacing. The theme uses lg:py-24 / xl:py-32 on the hero.
+     - the space above the hero content follows the window height, so the name block, the summary
+       and the CV button sit vertically centred in the first view (the numbers are the height of the
+       navbar and its spacer plus the height of the content);
+     - the gap between the "Professional Summary" heading and its text is tightened;
+     - Education gets more room and starts below the first view. */
   .resume-biography div.mb-16:has(> a[href$="resume.pdf"]) {
     margin-bottom: 6rem;
+  }
+  @media (min-width: 1024px) {
+    .resume-biography {
+      padding-top: max(0px, calc((100vh - 780px) / 2));
+    }
+    /* The heading's bottom margin collapses with the first paragraph's top margin (24px), and the
+       larger of the two wins, so both have to shrink. */
+    .resume-biography div.mb-8:has(> h2) {
+      margin-bottom: 0.75rem;
+    }
+    .resume-biography .bio-text > p:first-child {
+      margin-top: 0;
+    }
+    .resume-biography div.mb-16:has(> a[href$="resume.pdf"]) {
+      margin-bottom: max(9rem, calc(100vh - 640px));
+    }
   }
 </style>
