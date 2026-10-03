@@ -68,9 +68,15 @@ experience:
     org: TerraEye, Wrocław
     start: 2026-05-01
     summary: |
-      Head the Science & Innovation department and sit on the company's leadership team.
-      Own the R&D roadmap and scientific quality sign-off, and turn research into
-      capabilities that can be priced and sold. R&D: EXPLOMAT, GRENMINE, RISPECT.
+      Head the Science & Innovation department and sit on the company's leadership team. The
+      department turns research into capabilities that can be priced and sold: machine
+      learning and AI models and pipelines, multisensor Earth Observation methods and mineral
+      prospectivity mapping. Own the R&D roadmap and the IP strategy, scientific quality and
+      methodological sign-off before a capability is released, and the documentation of the
+      ML pipelines. The team works in two modes: developing new capabilities, and supporting
+      the delivery, product and engineering teams with ready methods and scientific advice,
+      including moving research results into production. Develop the scientific team.
+      R&D: EXPLOMAT, GRENMINE, RISPECT.
   - role: Geospatial Data Scientist
     org: TerraEye, Wrocław
     start: 2024-05-01
