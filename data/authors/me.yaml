@@ -162,7 +162,10 @@ awards:
     awarder: Geospatial World
     date: "2026-01-01"
     icon: hero/trophy
-  - title: ESNC Special Award
-    awarder: German Space Agency (DLR)
-    date: "2015-01-01"
+  - title: DLR Special Prize, European Satellite Navigation Competition 2015
+    awarder: German Aerospace Center (DLR)
+    date: "2015-10-20"
     icon: hero/trophy
+    summary: |
+      Special prize on the topic "Navigation: Core Driver for the Digital World!", awarded for
+      the concept of the Mobile Underwater Positioning System (MUPS).
