@@ -10,7 +10,11 @@ tags:
 #   - type: site
 #     url: ''
 ---
-Sustainable Exploration Technologies for Raw Materials Discovery — R&D at TerraEye on
-Earth-observation methods for raw-materials exploration.
+EXPLOMAT is a two-year project funded by EIT RawMaterials and led by TerraEye. It aims to bring
+to the market AI tools for mineral exploration based on satellite data, so that the first stages
+of exploration take less time and cost less than the conventional methods.
 
 <!--more-->
+
+TerraEye develops tools that, for example, detect stress in vegetation over mineral deposits,
+find rock outcrops in satellite images and extract geological structures.
