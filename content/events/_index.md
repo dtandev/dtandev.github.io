@@ -7,13 +7,14 @@ sections:
     content:
       title: Events
       items:
+        - title: Dzień Geoinformatyka
+          date: '12 May 2026'
+          icon: hero/presentation-chart-bar
+          text: A talk in Olsztyn on how mining shows up in satellite imagery over the years.
         - title: Geospatial World Forum
-          date: '2026'
+          date: 'April 2026'
           icon: hero/globe-alt
           text: A talk at the conference, and the Geospatial World 50 Rising Stars 2026 certificate.
-        - title: Dzień Geoinformatyka
-          icon: hero/presentation-chart-bar
-          text: A talk on how mining shows up in satellite imagery over the years.
         - title: Galileo Masters
           date: 'October 2015'
           icon: hero/trophy
@@ -32,7 +33,7 @@ sections:
           caption: Geospatial World 50 Rising Stars 2026
         - src: media/albums/events/dzien-geoinformatyka-talk.jpeg
           alt: Presenting at Dzień Geoinformatyka in front of a slide with a satellite image time series
-          caption: Dzień Geoinformatyka
+          caption: Dzień Geoinformatyka, Olsztyn
           credit: Maria Błońska
         - src: media/albums/events/gwf-talk.jpeg
           alt: Speaking at the Geospatial World Forum
