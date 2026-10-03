@@ -50,16 +50,16 @@ education:
     institution: University of Warmia and Mazury, Olsztyn — Faculty of Geodesy, Spatial Engineering and Construction
     start: 2011-10-01
     end: 2017-11-30
-  - degree: MSc in Computer Science (Systems and Computer Networks Design)
-    institution: University of Warmia and Mazury, Olsztyn
+  - degree: MSc studies in Computer Science (Systems and Computer Networks Design)
+    institution: University of Warmia and Mazury, Olsztyn — Faculty of Mathematics and Computer Science
     start: 2020-10-01
     end: 2022-06-30
   - degree: Postgraduate Diploma — Data Science in Practice
     institution: University of Warmia and Mazury, Olsztyn — Faculty of Mathematics and Computer Science
-    start: 2018-09-01
+    start: 2018-10-01
     end: 2019-03-31
   - degree: MSc Eng., Geodesy and Satellite Navigation
-    institution: University of Warmia and Mazury, Olsztyn
+    institution: University of Warmia and Mazury, Olsztyn — research internship at Kauno Kolegija, Kaunas, Lithuania (2015)
     start: 2006-10-01
     end: 2011-07-31
 
@@ -68,47 +68,61 @@ experience:
     org: TerraEye, Wrocław
     start: 2026-05-01
     summary: |
-      Head the Science & Innovation department and sit on the company's leadership team.
-      Own the R&D roadmap and scientific quality sign-off, and turn research into
-      capabilities that can be priced and sold. R&D: EXPLOMAT, GRENMINE, RISPECT.
+      Head the Science & Innovation department and sit on the company's leadership team. The
+      department turns research into capabilities that can be priced and sold: machine
+      learning and AI models and pipelines, multisensor Earth Observation methods and mineral
+      prospectivity mapping. Own the R&D roadmap and the IP strategy, scientific quality and
+      methodological sign-off before a capability is released, and the documentation of the
+      ML pipelines. The team works in two modes: developing new capabilities, and supporting
+      the delivery, product and engineering teams with ready methods and scientific advice,
+      including moving research results into production. Develop the scientific team.
+      R&D: EXPLOMAT, GRENMINE, RISPECT.
   - role: Geospatial Data Scientist
-    org: Remote Sensing Business Solutions (TerraEye), Wrocław
-    start: 2024-02-01
+    org: TerraEye, Wrocław
+    start: 2024-05-01
     end: 2026-04-30
     summary: |
-      Led the Science team building geospatial intelligence solutions for the mining
-      industry. Developed and validated remote-sensing methodologies (Sentinel-1/2,
-      Landsat, EMIT, thermal) for mineral exploration; integrated multisensor data with ML
-      and knowledge-based reasoning for prospectivity mapping.
+      Developed and validated remote-sensing methodologies (Sentinel-1/2, Landsat, EMIT,
+      thermal) for mineral exploration. Integrated multisensor data with ML and
+      knowledge-based reasoning for prospectivity mapping and oversaw methodology rigour.
+      R&D projects: EXPLOMAT (Sustainable Exploration Technologies for Raw Materials
+      Discovery), GRENMINE (Gravitational Energy Storage in the post-Mine areas), RISPECT
+      (Regional Innovation Scheme Project for Exploration Capabilities and Technologies).
   - role: R&D Team Leader
     org: Remote Sensing Environmental Solutions, Wrocław
     start: 2022-05-01
-    end: 2024-01-31
+    end: 2024-04-30
     summary: |
       Led an R&D team developing satellite-based AI solutions for the mining and
-      environmental sector. NCBR-funded projects: HYPE4EXPLOR, ECOSAT, MINECAM — from
-      methodology design to delivery.
+      environmental sector. Managed or took part in NCBR-funded R&D projects (including
+      HYPE4EXPLOR, ECOSAT and MINECAM), from methodology design to delivery. Directed the
+      development of mineral-prospecting and mine-monitoring tools using EO data and
+      machine learning.
   - role: Machine Learning Engineer
     org: Four Point, Wrocław
     start: 2021-08-01
     end: 2022-04-30
     summary: |
-      Built ML models for satellite-image analysis in the New Space sector; applied
-      computer vision and deep learning to Earth Observation data.
-  - role: Assistant Professor
+      Developed machine learning models for satellite-image analysis in the New Space
+      sector; applied computer vision and deep learning to Earth Observation data.
+  - role: Assistant Professor (also Adjunct Lecturer 2021–2022)
     org: University of Warmia and Mazury, Olsztyn
     start: 2016-10-01
     end: 2022-09-30
     summary: |
-      GPR-based detection and corrosion assessment of steel bars in reinforced concrete
-      (team leader, NCN-funded). ESA-funded navigation projects. GPR surveys as team
-      leader; Polish-Georgian archaeological expedition, Kutaisi.
+      R&D project on GPR-based detection and corrosion assessment of steel bars in
+      reinforced concrete, as R&D team leader, funded by the National Science Centre.
+      Projects funded by ESA: Geolocation Support for Outdoor Tourism Project and Global
+      Yacht Positioning System. GPR surveys as team leader (planning, measurements,
+      interpretation). Polish-Georgian Expedition, Kutaisi Archaeological Landscape,
+      Georgia.
   - role: Geophysicist & GIS / Data Analyst
-    org: GeoScience (owner) · Visimind · Environmental Expertise Rakus
+    org: GeoScience (owner) · Visimind Ltd · Environmental Expertise Rakus
     start: 2014-11-01
     end: 2021-12-31
     summary: |
-      GPR acquisition and interpretation; geodetic and environmental GIS analysis.
+      GPR acquisition and interpretation; geodetic and environmental GIS analysis. Data
+      analysis at Visimind Ltd (October 2015 – February 2016).
 
 skills:
   # Poziomy 1–5 to wstępna samoocena — dostosuj do własnej.
@@ -140,15 +154,18 @@ languages:
     level: 5
     label: Native
   - name: English
-    level: 3
-    label: B2
+    level: 3.5
+    label: B2+
 
 awards:
   - title: Geospatial World 50 Rising Stars
     awarder: Geospatial World
     date: "2026-01-01"
     icon: hero/trophy
-  - title: ESNC Special Award
-    awarder: German Space Agency (DLR)
-    date: "2015-01-01"
+  - title: DLR Special Prize, European Satellite Navigation Competition 2015
+    awarder: German Aerospace Center (DLR)
+    date: "2015-10-20"
     icon: hero/trophy
+    summary: |
+      Special prize on the topic "Navigation: Core Driver for the Digital World!", awarded for
+      the concept of the Mobile Underwater Positioning System (MUPS).

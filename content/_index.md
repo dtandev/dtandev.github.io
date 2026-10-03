@@ -67,7 +67,7 @@ sections:
         <div style="display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;margin-top:1.5rem">
           <img class="member-logo" src="/media/badges/galileo-masters.png" alt="Galileo Masters (European Satellite Navigation Competition)" style="margin:0;width:120px;height:auto">
           <p style="margin:0;flex:1;min-width:14rem">
-            <strong>2015</strong> — Special Award of the German Aerospace Center (DLR) at the European Satellite Navigation Competition (ESNC, formerly Galileo Masters).
+            <strong>2015</strong> — DLR Special Prize, awarded by the German Aerospace Center (DLR) at the European Satellite Navigation Competition (ESNC, formerly Galileo Masters) for the concept of the Mobile Underwater Positioning System (MUPS).
           </p>
         </div>
     design:
