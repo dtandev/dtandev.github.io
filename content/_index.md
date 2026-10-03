@@ -85,6 +85,10 @@ sections:
           <a href="https://pspa.pl/" target="_blank" rel="noopener" title="Polish Space Professionals Association">
             <img class="member-logo" src="/media/badges/pspa.png" alt="Polish Space Professionals Association (PSPA)" style="margin:0;height:90px;width:auto">
           </a>
+          <a href="https://www.egu.eu/" target="_blank" rel="noopener" title="European Geosciences Union">
+            <img class="egu-light" src="/media/badges/egu-blue.svg" alt="European Geosciences Union (EGU)" style="margin:0;height:90px;width:auto">
+            <img class="egu-dark" src="/media/badges/egu-yellow.svg" alt="European Geosciences Union (EGU)" style="margin:0;height:90px;width:auto">
+          </a>
         </div>
     design:
       columns: '1'

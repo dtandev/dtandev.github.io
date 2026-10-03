@@ -3,4 +3,8 @@
   /* The CASSINI logo is white-on-transparent, so it is inverted to dark in light mode. */
   .cassini-logo { filter: invert(1); }
   html.dark .cassini-logo { filter: none; }
+  /* EGU supplies a blue logo for light and a yellow one for dark backgrounds, and the files must not be altered. */
+  .egu-dark { display: none; }
+  html.dark .egu-light { display: none; }
+  html.dark .egu-dark { display: inline-block; }
 </style>
