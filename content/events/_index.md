@@ -11,7 +11,8 @@ sections:
           date: 'May 2026'
           badge: Olsztyn, Poland
           icon: hero/presentation-chart-bar
-          text: A talk on how mining shows up in satellite imagery over the years.
+          text: >-
+            A presentation, "From Exploration to Reclamation. Geospatial Data Across the Mine Life Cycle".
         - title: Geospatial World Forum
           date: 'April 2026'
           badge: Amsterdam, Netherlands
