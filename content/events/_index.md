@@ -12,7 +12,7 @@ sections:
           icon: hero/presentation-chart-bar
           text: A talk in Olsztyn on how mining shows up in satellite imagery over the years.
         - title: Geospatial World Forum
-          date: '2026'
+          date: 'April 2026'
           icon: hero/globe-alt
           text: A talk at the conference, and the Geospatial World 50 Rising Stars 2026 certificate.
         - title: Galileo Masters
