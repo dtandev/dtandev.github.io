@@ -7,7 +7,7 @@ sections:
     content:
       title: Events
       items:
-        - title: Dzień Geoinformatyka
+        - title: Geoinformatics Day
           date: 'May 2026'
           badge: Olsztyn, Poland
           icon: hero/presentation-chart-bar
@@ -55,8 +55,8 @@ sections:
           alt: Receiving the Geospatial World 50 Rising Stars 2026 certificate
           caption: Geospatial World 50 Rising Stars 2026
         - src: media/albums/events/dzien-geoinformatyka-talk.jpeg
-          alt: Presenting at Dzień Geoinformatyka in front of a slide with a satellite image time series
-          caption: Dzień Geoinformatyka, Olsztyn
+          alt: Presenting at Geoinformatics Day in front of a slide with a satellite image time series
+          caption: Geoinformatics Day, Olsztyn
           credit: Maria Błońska
         - src: media/albums/events/gwf-talk.jpeg
           alt: Speaking at the Geospatial World Forum
