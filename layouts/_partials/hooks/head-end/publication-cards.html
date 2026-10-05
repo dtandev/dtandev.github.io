@@ -1,0 +1,61 @@
+<style>
+  /* Publication cards: abstract, links and citations, no author line. */
+  .pub-grid { display: grid; gap: 2rem; grid-template-columns: 1fr; }
+  @media (min-width: 768px) { .pub-grid { grid-template-columns: 1fr 1fr; } }
+  .pub-card { background: rgba(255,255,255,.9); border-radius: 1rem; padding: 1.5rem 1.75rem;
+              box-shadow: 0 0 0 1px rgba(24,24,27,.06), 0 8px 24px rgba(24,24,27,.08);
+              display: flex; flex-direction: column; gap: .9rem; }
+  html.dark .pub-card { background: rgba(24,24,27,.9); box-shadow: 0 0 0 1px rgba(255,255,255,.1), 0 8px 24px rgba(0,0,0,.35); }
+  .pub-meta { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; font-size: .8rem; }
+  .pub-year { font-weight: 700; padding: .15rem .6rem; border-radius: 999px; background: rgba(120,90,60,.14); }
+  .pub-venue { opacity: .75; font-style: italic; }
+  .pub-oa { margin-left: auto; font-size: .7rem; font-weight: 600; padding: .1rem .5rem; border-radius: 999px; border: 1px solid rgba(120,90,60,.4); }
+  .pub-title { font-size: 1.15rem; line-height: 1.3; font-weight: 700; margin: 0; }
+  .pub-title a { text-decoration: none; }
+  .pub-title a:hover { text-decoration: underline; }
+  .pub-abstract { font-size: .92rem; line-height: 1.55; opacity: .85; margin: 0;
+                  display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical; overflow: hidden; }
+  .pub-links { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: auto; }
+  .pub-links a { font-size: .8rem; font-weight: 600; padding: .3rem .8rem; border-radius: 999px; text-decoration: none;
+                 border: 1px solid rgba(120,90,60,.45); }
+  .pub-links a:hover { background: rgba(120,90,60,.12); }
+  .pub-impact { font-size: .8rem; margin: 0; opacity: .8; }
+  .pub-impact b { font-size: 1rem; }
+  .pub-src { opacity: .7; }
+  .pub-summary { text-align: center; font-size: .95rem; margin: .25rem 0 0; }
+  .pub-summary b { font-size: 1.25rem; }
+  .pub-summary small { display: block; opacity: .7; margin-top: .25rem; }
+</style>
+<script>
+  /* Citation counts: the numbers in the page are a snapshot; this asks OpenAlex for the current ones. */
+  (function () {
+    var API = "https://api.openalex.org/";
+    function get(url, cb) {
+      var key = "oa:" + url;
+      try { var c = sessionStorage.getItem(key); if (c) { cb(JSON.parse(c)); return; } } catch (e) {}
+      fetch(url, { headers: { Accept: "application/json" } })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (d) { if (!d) return; try { sessionStorage.setItem(key, JSON.stringify(d)); } catch (e) {} cb(d); })
+        .catch(function () {});
+    }
+    function run() {
+      document.querySelectorAll("[data-doi]").forEach(function (el) {
+        get(API + "works/doi:" + encodeURI(el.dataset.doi) + "?select=cited_by_count", function (d) {
+          var b = el.querySelector(".pub-cites"), s = el.querySelector(".pub-src");
+          if (b && typeof d.cited_by_count === "number") { b.textContent = d.cited_by_count; if (s) s.textContent = "(OpenAlex, current)"; }
+        });
+      });
+      document.querySelectorAll("[data-orcid]").forEach(function (el) {
+        get(API + "authors/orcid:" + el.dataset.orcid + "?select=cited_by_count,works_count,summary_stats", function (d) {
+          var v = { works: d.works_count, cites: d.cited_by_count, h: d.summary_stats && d.summary_stats.h_index,
+                    i10: d.summary_stats && d.summary_stats.i10_index };
+          Object.keys(v).forEach(function (k) {
+            var n = el.querySelector('[data-k="' + k + '"]'); if (n && typeof v[k] === "number") n.textContent = v[k];
+          });
+          var s = el.querySelector('[data-k="src"]'); if (s) s.textContent = "current";
+        });
+      });
+    }
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run); else run();
+  })();
+</script>
