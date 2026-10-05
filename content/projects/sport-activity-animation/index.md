@@ -13,6 +13,7 @@ links:
   - name: Code
     url: https://github.com/dtandev/dtandev-running-animation
     icon: brands/github
+draft: true  # hidden until InstaRun is ready to be announced; remove this line to show the project again
 ---
 
 I wanted a better way to show a race or a training than a static map and a screenshot of a watch. The tool works with any activity recorded in a GPX file, whether it is running, cycling or skating. You give it the track, a folder of photos, the event logo and the event name, and it produces one HTML file. A dot moves along the route while time, distance, pace, elevation and heart rate update live. The track can be coloured by pace, heart rate or elevation, and photos pop up as pins when the athlete reaches the place where they were taken.
