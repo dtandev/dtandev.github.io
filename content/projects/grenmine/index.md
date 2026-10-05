@@ -5,6 +5,7 @@ date: 2024-01-01
 tags:
   - Post-mining
   - Geospatial Analysis
+draft: true  # hidden for now; remove this line to show the project again
 ---
 GRENMINE is a research project funded by the European Commission under the Research Fund for
 Coal and Steel, running from July 2024 to June 2027. An international consortium coordinated by
