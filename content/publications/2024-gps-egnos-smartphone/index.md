@@ -1,14 +1,15 @@
 ---
 title: "Optimal GPS/EGNOS Positioning Model Using a Smartphone"
 authors:
-- Grunwald
-- Ciećko
-- Krasuski
+- "Grzegorz Grunwald"
+- "Adam Ciećko"
+- "Kamil Krasuski"
 - me
-date: "2024-01-01T00:00:00Z"
+date: "2024-02-23T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "Applied Sciences"
+  issue: 5
   volume: 14
   pages: "1840"
 peer_reviewed: true

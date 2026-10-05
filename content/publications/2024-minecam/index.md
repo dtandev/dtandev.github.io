@@ -1,14 +1,17 @@
 ---
 title: "MineCam: Combined Remote Sensing and Machine Learning for Segmentation and Change Detection of Mining Areas"
 authors:
-- Katarzyna Jabłońska
-- M. Maksymowicz
+- "Katarzyna Jabłońska"
+- "Marcin Maksymowicz"
 - me
-# CV lists "et al." — dodaj pozostałych współautorów, jeśli chcesz pełną listę.
-date: "2024-01-01T00:00:00Z"
+- "Wojciech Kaczan"
+- "Maciej Zięba"
+- "Marek Wilgucki"
+date: "2024-03-08T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "Remote Sensing"
+  issue: 6
   volume: 16
   pages: "955"
 peer_reviewed: true

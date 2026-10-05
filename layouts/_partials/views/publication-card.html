@@ -9,7 +9,7 @@
 
 <article class="pub-card" aria-labelledby="pub-{{ $item.File.UniqueID }}">
   <div class="pub-meta">
-    <span class="pub-year">{{ $item.Date.Format "2006" }}</span>
+    <span class="pub-year">{{ if $item.Params.date_year_only }}{{ $item.Date.Format "2006" }}{{ else }}{{ $item.Date.Format "Jan 2006" }}{{ end }}</span>
     {{ with $pub }}{{ with .name }}<span class="pub-venue">{{ . }}{{ with $pub.volume }} {{ . }}{{ end }}{{ with $pub.pages }}, {{ . }}{{ end }}</span>{{ end }}{{ end }}
     {{ if or $oa_url $item.Params.open_access }}<span class="pub-oa">Open access</span>{{ end }}
   </div>

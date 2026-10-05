@@ -2,12 +2,15 @@
 title: "Uncertainty-Weighted Spectral Similarity for Hyperspectral Imaging Spectroscopy"
 authors:
 - me
-- Katarzyna Jabłońska
-- Marcin Jakubowicz
+- "Katarzyna Jabłońska"
+- "Marcin Jakubowicz"
 date: "2026-01-01T00:00:00Z"
+date_year_only: true
 publication_types: ["article-journal"]
 publication:
   name: "IEEE Geoscience and Remote Sensing Letters"
+  pages: "2503905"
+  volume: 23
 peer_reviewed: true
 featured: true
 hugoblox:

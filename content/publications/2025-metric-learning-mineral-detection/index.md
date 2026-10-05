@@ -1,13 +1,14 @@
 ---
 title: "Metric Learning Networks for Accurate Mineral Detection with Different Augmentation Techniques"
 authors:
-- Katarzyna Jabłońska
-- Maciej Zięba
+- "Katarzyna Jabłońska"
+- "Maciej Zięba"
 - me
-date: "2025-01-01T00:00:00Z"
+date: "2025-12-11T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "Expert Systems with Applications"
+  volume: 304
   pages: "130692"
 peer_reviewed: true
 featured: true

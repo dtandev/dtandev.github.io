@@ -1,15 +1,16 @@
 ---
 title: "Conceptual Framework of a Global Yacht Positioning System in Poland"
 authors:
-- Każmierczak
-- Szczepańska
-- Grunwald
-- Kowalczyk
+- "Rafał Kaźmierczak"
+- "Agnieszka Szczepańska"
+- "Grzegorz Grunwald"
+- "Cezary Kowalczyk"
 - me
-date: "2022-01-01T00:00:00Z"
+date: "2021-11-30T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "Applied Geomatics"
+  issue: 1
   volume: 14
   pages: "79-91"
 peer_reviewed: true

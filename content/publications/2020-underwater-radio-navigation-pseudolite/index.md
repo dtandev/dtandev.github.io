@@ -1,16 +1,17 @@
 ---
 title: "Theoretical Concept for a Mobile Underwater Radio-Navigation System Using Pseudolite Buoys"
 authors:
-- Grosch
-- Enneking
-- Greda
+- "Anja Grosch"
+- "Christoph Enneking"
+- "Łukasz A. Greda"
 - me
-- Grunwald
-- Ciećko
-date: "2020-01-01T00:00:00Z"
+- "Grzegorz Grunwald"
+- "Adam Ciećko"
+date: "2020-11-05T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "Remote Sensing"
+  pages: "3636"
   volume: 12
   issue: 21
 peer_reviewed: true

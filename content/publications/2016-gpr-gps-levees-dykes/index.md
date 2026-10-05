@@ -2,8 +2,8 @@
 title: "Application of GPR and GPS Surveys for Monitoring the Condition of Levees and Dykes"
 authors:
 - me
-- Bakuła
-date: "2016-01-01T00:00:00Z"
+- "Mieczysław Bakuła"
+date: "2016-08-01T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "Acta Geophysica"
