@@ -8,6 +8,7 @@ tags:
   - Python
 image:
   caption: A generated animation with photo pins and camera badges on the elevation profile.
+draft: true  # hidden together with the project page, which it links to; remove this line to show the post again
 ---
 
 A photo from a race is only useful on a map if the map knows where it was taken. Photos from a phone usually carry a GPS position in their EXIF data. Photos from a professional camera, screenshots and pictures that went through a messenger usually do not. The [Sport Activity Animation](/projects/sport-activity-animation/) tool has to place all of them, so it decides for every photo separately, using the first method that works.
