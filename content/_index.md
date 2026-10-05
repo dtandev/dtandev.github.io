@@ -124,24 +124,19 @@ sections:
         </div>
     design:
       columns: '1'
-  - block: collection
-    id: papers
+  - block: markdown
     content:
-      title: Publications
+      title: Research output
       text: |-
         <p class="pub-summary" data-orcid="0000-0002-9734-1762">
-          <span class="pub-intro">Publications I have co-authored. Across all my work:</span><br>
+          Co-author of papers on hyperspectral mineral detection, mining-area monitoring and GNSS positioning.<br>
           <b data-k="works">18</b> works · <b data-k="cites">65</b> citations ·
           h-index <b data-k="h">5</b> · i10-index <b data-k="i10">2</b>
-          <small>Source: OpenAlex, <span data-k="src">5 Oct 2026</span>. The numbers cover all my publications, not only those below.</small>
+          <small>Source: OpenAlex, <span data-k="src">5 Oct 2026</span>.
+          <a href="/publications/">All publications →</a></small>
         </p>
-      count: 20
-      filters:
-        folders:
-          - publications
     design:
-      view: publication-card
-      columns: 2
+      columns: '1'
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:
