@@ -1,0 +1,35 @@
+{{- /* Card of a publication: venue, abstract, links and current citations. It deliberately shows no author. */ -}}
+{{ $item := .item }}
+{{ $doi := "" }}
+{{ with $item.Params.hugoblox }}{{ with .ids }}{{ $doi = .doi | default "" }}{{ end }}{{ end }}
+{{ $pub := $item.Params.publication }}
+{{ $impact := $item.Params.impact }}
+{{ $oa_url := $item.Params.oa_url }}
+{{ $abstract := $item.Params.abstract | default "" | plainify | htmlUnescape }}
+
+<article class="pub-card" aria-labelledby="pub-{{ $item.File.UniqueID }}">
+  <div class="pub-meta">
+    <span class="pub-year">{{ if $item.Params.date_year_only }}{{ $item.Date.Format "2006" }}{{ else }}{{ $item.Date.Format "Jan 2006" }}{{ end }}</span>
+    {{ with $pub }}{{ with .name }}<span class="pub-venue">{{ . }}{{ with $pub.volume }} {{ . }}{{ end }}{{ with $pub.pages }}, {{ . }}{{ end }}</span>{{ end }}{{ end }}
+    {{ if or $oa_url $item.Params.open_access }}<span class="pub-oa">Open access</span>{{ end }}
+  </div>
+
+  <h3 id="pub-{{ $item.File.UniqueID }}" class="pub-title"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></h3>
+
+  {{ if $abstract }}
+  <p class="pub-abstract">{{ $abstract | truncate 380 }}</p>
+  {{ end }}
+
+  <div class="pub-links">
+    {{ if $doi }}<a href="https://doi.org/{{ $doi }}" target="_blank" rel="noopener">DOI</a>{{ end }}
+    {{ if and $oa_url (ne $oa_url (printf "https://doi.org/%s" $doi)) }}<a href="{{ $oa_url }}" target="_blank" rel="noopener">Full text</a>{{ end }}
+    <a href="{{ $item.RelPermalink }}">Abstract and details</a>
+  </div>
+
+  {{ with $impact }}
+  <p class="pub-impact" {{ if $doi }}data-doi="{{ $doi }}"{{ end }}>
+    Cited by <b class="pub-cites">{{ .citations }}</b>
+    <span class="pub-src">({{ .source }}, {{ time.Format "2 Jan 2006" .as_of }})</span>
+  </p>
+  {{ end }}
+</article>
