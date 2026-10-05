@@ -6,7 +6,7 @@ main:
     url: /
     weight: 10
   - name: Publications
-    url: /#papers
+    url: publications/
     weight: 11
   - name: Experience
     url: experience/
