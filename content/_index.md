@@ -116,10 +116,10 @@ sections:
             <img src="https://ghchart.rshah.org/3b2313/dtandev" alt="GitHub contribution calendar for dtandev" loading="lazy">
           </a>
           <div class="gh-cards">
-            <img class="gh-light" loading="lazy" alt="GitHub stats for dtandev" src="https://github-readme-stats.vercel.app/api?username=dtandev&show_icons=true&include_all_commits=true&hide_rank=true&hide=contribs,issues&disable_animations=true&hide_border=true&bg_color=00000000&title_color=3b2313&text_color=5c4033&icon_color=d97706">
-            <img class="gh-dark" loading="lazy" alt="GitHub stats for dtandev" src="https://github-readme-stats.vercel.app/api?username=dtandev&show_icons=true&include_all_commits=true&hide_rank=true&hide=contribs,issues&disable_animations=true&hide_border=true&bg_color=00000000&title_color=d49255&text_color=e0cab6&icon_color=d49255">
-            <img class="gh-light" loading="lazy" alt="Most used languages on GitHub" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dtandev&layout=compact&hide=html,just&disable_animations=true&hide_border=true&bg_color=00000000&title_color=3b2313&text_color=5c4033">
-            <img class="gh-dark" loading="lazy" alt="Most used languages on GitHub" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dtandev&layout=compact&hide=html,just&disable_animations=true&hide_border=true&bg_color=00000000&title_color=d49255&text_color=e0cab6">
+            <img class="gh-light" loading="lazy" alt="GitHub stats for dtandev" src="/media/github/stats-light.svg">
+            <img class="gh-dark" loading="lazy" alt="GitHub stats for dtandev" src="/media/github/stats-dark.svg">
+            <img class="gh-light" loading="lazy" alt="Most used languages on GitHub" src="/media/github/langs-light.svg">
+            <img class="gh-dark" loading="lazy" alt="Most used languages on GitHub" src="/media/github/langs-dark.svg">
           </div>
         </div>
     design:
