@@ -37,10 +37,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- static/media/github; then
+          git add static/media/github
+          if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
-          git add static/media/github
           git commit -m "chore: refresh GitHub stats cards"
           git push
