@@ -8,8 +8,8 @@ date: "2025-01-01T00:00:00Z"
 date_year_only: true
 publication_types: ["book"]
 publication:
-  publisher: "Instytut Naukowo-Wydawniczy Spatium"
-  pages: "206"
+  name: "Instytut Naukowo-Wydawniczy Spatium"
+  pages: "206 pp."
 tags:
 - Agriculture
 - Artificial Intelligence
