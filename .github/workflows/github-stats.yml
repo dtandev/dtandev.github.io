@@ -1,0 +1,46 @@
+name: Update GitHub Stats Cards
+
+# Regenerates the self-hosted GitHub stats / top-languages SVG cards used on the
+# homepage, replacing the old github-readme-stats.vercel.app embeds (a shared free
+# demo deployment that goes down/gets rate-limited with no warning).
+
+on:
+  schedule:
+    - cron: '0 5 * * *' # daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-stats
+  cancel-in-progress: true
+
+jobs:
+  update-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Generate cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate_github_cards.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- static/media/github; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git add static/media/github
+          git commit -m "chore: refresh GitHub stats cards"
+          git push
