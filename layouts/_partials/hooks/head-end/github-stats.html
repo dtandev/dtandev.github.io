@@ -3,6 +3,8 @@
   /* ghchart draws empty days in light grey, so the calendar keeps a cream panel in both modes. */
   .gh-calendar { display: block; background: #fffaf5; border-radius: 12px; padding: 12px; margin-bottom: 1.5rem; }
   .gh-cards { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start; }
+  /* The theme's prose styles stretch img to the full column width; the cards are fixed-width SVGs, so pin them back. */
+  .gh-cards img { width: 320px; flex: 0 1 320px; }
   .gh-dark { display: none !important; }
   html.dark .gh-light { display: none !important; }
   html.dark .gh-dark { display: block !important; }
