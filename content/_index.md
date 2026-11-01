@@ -113,7 +113,8 @@ sections:
       text: |-
         <div class="gh-stats">
           <a class="gh-calendar" href="https://github.com/dtandev" target="_blank" rel="noopener">
-            <img src="https://ghchart.rshah.org/3b2313/dtandev" alt="GitHub contribution calendar for dtandev" loading="lazy">
+            <img class="gh-light" src="https://ghchart.rshah.org/3b2313/dtandev" alt="GitHub contribution calendar for dtandev" loading="lazy">
+            <img class="gh-dark" src="https://ghchart.rshah.org/d49255/dtandev" alt="GitHub contribution calendar for dtandev" loading="lazy">
           </a>
           <div class="gh-cards">
             <img class="gh-light" loading="lazy" alt="GitHub stats for dtandev" src="/media/github/stats-light.svg">
