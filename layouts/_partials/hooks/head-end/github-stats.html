@@ -1,5 +1,7 @@
 <style>
   .gh-stats img { max-width: 100%; height: auto; margin: 0; }
+  /* The theme's reading-width column (65ch) is narrower than two 320px cards side by side; widen just this section. */
+  #github .max-w-prose { max-width: 48rem; }
   /* ghchart draws empty days in light grey, so the calendar keeps a cream panel in both modes. */
   .gh-calendar { display: block; background: #fffaf5; border-radius: 12px; padding: 12px; margin-bottom: 1.5rem; }
   .gh-cards { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start; }
